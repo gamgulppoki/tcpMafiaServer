@@ -1,0 +1,4 @@
+﻿# Visual Studio cache / precompiled headers (GitHub 100MB limit)
+.vs/
+*.ipch
+*.pch

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{aca1a4ba-19f0-4a9c-9ad5-f76ec6be9aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager">
+      <UniqueIdentifier>{7cfd3868-1303-448b-b909-ef2335248c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Network">
+      <UniqueIdentifier>{4e9e0b8b-beec-410a-b7a8-96db7fb14325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Network\00. Socket">
+      <UniqueIdentifier>{5e4c520d-cd44-4cb4-a7fc-ae119f146a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Network\01. Packet">
+      <UniqueIdentifier>{d8e225b3-02d9-4585-9eaa-b2db5d2d9257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Player">
+      <UniqueIdentifier>{44c0cc6b-5eb7-4039-a06f-adaaf8e1fde0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerLobby.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPacket.h">
+      <Filter>02. Network\01. Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPacket.h">
+      <Filter>02. Network\01. Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSocket.h">
+      <Filter>02. Network\00. Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo.h">
+      <Filter>04. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWorkDefine.h">
+      <Filter>02. Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerInGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mafia_Server.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerLobby.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSocket.cpp">
+      <Filter>02. Network\00. Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp" />
+    <ClCompile Include="ServerInGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

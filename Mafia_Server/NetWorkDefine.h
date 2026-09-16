@@ -1,0 +1,18 @@
+#pragma once
+
+enum EThreadType
+{
+	TT_LOBBY_NEW_PLAYER,
+	TT_LOBBY_PRESS_READY,
+
+	TT_END,
+};
+
+enum EPacketType
+{
+	CHAT_PACKET,
+	VOTE_PACKET,
+	TARGET_PACKET,
+
+	PACKETTYPE_END
+};
